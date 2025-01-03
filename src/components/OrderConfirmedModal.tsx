@@ -19,22 +19,22 @@ export function OrderConfirmedModal({ isOpen, onClose }: OrderConfirmedModalProp
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl p-8 max-w-md w-full">
+      <div className="bg-white rounded-2xl p-8 max-w-md w-full max-h-[90vh] flex flex-col">
         <img 
           src={confirmIcon} 
           alt="Order Confirmed" 
-          className="w-16 h-16 mb-6"
+          className="w-16 h-16 mb-6 flex-shrink-0"
         />
-        <h2 className="text-2xl font-bold mb-2">Order Confirmed</h2>
-        <p className="text-gray-500 mb-8">
+        <h2 className="text-2xl font-bold mb-2 flex-shrink-0">Order Confirmed</h2>
+        <p className="text-gray-500 mb-8 flex-shrink-0">
           We hope you enjoy your food!
         </p>
         
-        <div className="space-y-4 mb-8">
+        <div className="space-y-4 mb-8 overflow-auto">
           {items.map((item) => (
             <div key={item.id} className="flex items-center gap-4">
               <img
-                src={item.image.replace('desktop', 'thumbnail')}
+                src={item.image}
                 alt={item.name}
                 className="w-12 h-12 rounded-lg object-cover"
               />
