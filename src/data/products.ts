@@ -8,68 +8,87 @@ import cakeImage from '../assets/images/image-cake-desktop.jpg';
 import brownieImage from '../assets/images/image-brownie-desktop.jpg';
 import pannaCottaImage from '../assets/images/image-panna-cotta-desktop.jpg';
 
+import waffleThumbnail from '../assets/images/image-waffle-thumbnail.jpg';
+import cremeBruleeThumbnail from '../assets/images/image-creme-brulee-thumbnail.jpg';
+import macaronThumbnail from '../assets/images/image-macaron-thumbnail.jpg';
+import tiramisuThumbnail from '../assets/images/image-tiramisu-thumbnail.jpg';
+import baklavaThumbnail from '../assets/images/image-baklava-thumbnail.jpg';
+import meringueThumbnail from '../assets/images/image-meringue-thumbnail.jpg';
+import cakeThumbnail from '../assets/images/image-cake-thumbnail.jpg';
+import brownieThumbnail from '../assets/images/image-brownie-thumbnail.jpg';
+import pannaCottaThumbnail from '../assets/images/image-panna-cotta-thumbnail.jpg';
+
 export const products = [
   {
     id: '1',
     category: 'Waffle',
     name: 'Waffle with Berries',
     price: 6.50,
-    image: waffleImage
+    image: waffleImage,
+    thumbnail: waffleThumbnail
   },
   {
     id: '2',
     category: 'Crème Brûlée',
     name: 'Vanilla Bean Crème Brûlée',
     price: 7.00,
-    image: cremeBruleeImage
+    image: cremeBruleeImage,
+    thumbnail: cremeBruleeThumbnail
   },
   {
     id: '3',
     category: 'Macaron',
     name: 'Macaron Mix of Five',
     price: 8.00,
-    image: macaronImage
+    image: macaronImage,
+    thumbnail: macaronThumbnail
   },
   {
     id: '4',
     category: 'Tiramisu',
     name: 'Classic Tiramisu',
     price: 5.50,
-    image: tiramisuImage
+    image: tiramisuImage,
+    thumbnail: tiramisuThumbnail
   },
   {
     id: '5',
     category: 'Baklava',
     name: 'Pistachio Baklava',
     price: 4.00,
-    image: baklavaImage
+    image: baklavaImage,
+    thumbnail: baklavaThumbnail
   },
   {
     id: '6',
     category: 'Pie',
     name: 'Lemon Meringue Pie',
     price: 5.00,
-    image: meringueImage
+    image: meringueImage,
+    thumbnail: meringueThumbnail
   },
   {
     id: '7',
     category: 'Cake',
     name: 'Red Velvet Cake',
     price: 4.50,
-    image: cakeImage
+    image: cakeImage,
+    thumbnail: cakeThumbnail
   },
   {
     id: '8',
     category: 'Brownie',
     name: 'Salted Caramel Brownie',
     price: 5.50,
-    image: brownieImage
+    image: brownieImage,
+    thumbnail: brownieThumbnail
   },
   {
     id: '9',
     category: 'Panna Cotta',
     name: 'Vanilla Panna Cotta',
     price: 6.50,
-    image: pannaCottaImage
+    image: pannaCottaImage,
+    thumbnail: pannaCottaThumbnail
   }
 ];
